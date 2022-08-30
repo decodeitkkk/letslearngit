@@ -1,6 +1,6 @@
 a = 0
 while a != 1:
-    op = input("What operation do you want to perform(Add,Subtract,Multiply,Divide,")
+    print("""1. Addition\n2. Subtraction\n3. Multiplication\n4. Division""")
     if op == "Add":
         try:
             n1 = int(input("Enter Num 1:-"))
